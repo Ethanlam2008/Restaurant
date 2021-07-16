@@ -1,0 +1,128 @@
+h1{
+	color: black;
+	font-size: 300%;
+	font-family: 'Source Sans Pro', sans-serif;
+	top: 40%;
+	left: 0%;
+	display: flex;
+	position: absolute;
+	text-align: left;
+	text-shadow: 0.05em 0.05em 0.05em darkgray;
+}
+
+#homepagebanner{
+	width: 100%;
+	position: relative;
+	margin: 0px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.foodimg{
+	height: 350px;
+	width: 500px;
+	object-fit: cover;
+	border-radius: 50px;
+	box-shadow: 0.3em 0.2em 0.5em steelblue;
+}
+
+p{
+	font-size: 100%;
+	color: black;
+}
+
+a{
+	text-decoration: none;
+}
+
+#carddiv{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+#button{
+	position: absolute;
+	top: 80%;
+	left: 1%;
+	color: skyblue;
+	background-color: yellow;
+	padding: 1%;
+	border-radius: 40px;
+	box-shadow: 0.3em 0.2em 0.5em orange;
+}
+
+
+@media print {
+	h1 {
+		display: none;
+	}
+	#button{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	body{
+		background-color: skyblue;
+	}
+	h1{
+		top: 30%;
+	}
+	#button{
+		top: 70%;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	body{
+		background-color: yellow;
+	}
+	h1{
+		top: 20%;
+	}
+	#button{
+		top: 60%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	body{
+		background-color: lightgreen;
+	}
+	h1{
+		display: none;
+	}
+	#button{
+		top: 5%;
+		right: 5%;
+	}
+}
+
+
+
+
+
+
+
+#logo{
+	width: 10%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 200%;
+}
+
+ul, ol{
+	list-style-type: none;
+	padding: 30px;
+}
